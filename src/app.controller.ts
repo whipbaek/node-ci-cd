@@ -30,4 +30,9 @@ export class AppController {
   mine3(): string {
     return 'mine3';
   }
+
+  @Get('/mine4')
+  mine4(): string {
+    return 'mine4';
+  }
 }

@@ -13,6 +13,6 @@ export class AppController {
   @Get('/test')
   test(): string {
     console.log('changed');
-    return 'test';
+    return 'test2';
   }
 }

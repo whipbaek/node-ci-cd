@@ -35,4 +35,14 @@ export class AppController {
   mine4(): string {
     return 'mine4';
   }
+
+  @Get('/mine5')
+  mine5(): string {
+    return 'mine5';
+  }
+
+  @Get('/mine6')
+  mine6(): string {
+    return 'mine6';
+  }
 }

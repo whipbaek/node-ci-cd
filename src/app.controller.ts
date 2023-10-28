@@ -15,4 +15,9 @@ export class AppController {
     console.log('changed');
     return 'test2';
   }
+
+  @Get('/mine')
+  mine(): string {
+    return 'mine';
+  }
 }

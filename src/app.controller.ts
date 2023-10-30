@@ -16,53 +16,8 @@ export class AppController {
     return 'test2';
   }
 
-  @Get('/mine')
+  @Get('/whip')
   mine(): string {
-    return 'mine';
-  }
-
-  @Get('/mine2')
-  mine2(): string {
-    return 'mine2';
-  }
-
-  @Get('/mine3')
-  mine3(): string {
-    return 'mine3';
-  }
-
-  @Get('/mine4')
-  mine4(): string {
-    return 'mine4';
-  }
-
-  @Get('/mine5')
-  mine5(): string {
-    return 'mine5';
-  }
-
-  @Get('/mine6')
-  mine6(): string {
-    return 'mine6';
-  }
-
-  @Get('/mine7')
-  mine7(): string {
-    return 'mine7';
-  }
-
-  @Get('/mine8')
-  mine8(): string {
-    return 'mine8';
-  }
-
-  @Get('/mine9')
-  mine9(): string {
-    return 'mine9';
-  }
-
-  @Get('/mine10')
-  mine10(): string {
-    return 'mine10';
+    return 'whip';
   }
 }

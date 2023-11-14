@@ -12,5 +12,7 @@ COPY . .
 
 RUN npm run build
 
+RUN npm test
+
 CMD [ "node", "dist/main.js" ]
 

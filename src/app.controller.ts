@@ -20,4 +20,19 @@ export class AppController {
   mine(): string {
     return 'whip';
   }
+
+  @Get('/myTest')
+  myTest(): string {
+    return 'myTest';
+  }
+
+  @Get('/myTest4')
+  myTest2(): string {
+    return 'myTest4';
+  }
+
+  @Get('/myTest5')
+  myTest5(): string {
+    return 'myTest5';
+  }
 }

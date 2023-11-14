@@ -28,6 +28,6 @@ export class AppController {
 
   @Get('/myTest7')
   myTest2(): string {
-    return 'myTest4';
+    return 'myTest7';
   }
 }

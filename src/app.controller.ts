@@ -26,7 +26,7 @@ export class AppController {
     return 'myTest';
   }
 
-  @Get('/myTest4')
+  @Get('/myTest7')
   myTest2(): string {
     return 'myTest4';
   }

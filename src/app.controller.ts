@@ -30,4 +30,9 @@ export class AppController {
   myTest2(): string {
     return 'myTest4';
   }
+
+  @Get('/myTest5')
+  myTest5(): string {
+    return 'myTest5';
+  }
 }

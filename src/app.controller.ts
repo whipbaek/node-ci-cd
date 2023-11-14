@@ -25,4 +25,9 @@ export class AppController {
   myTest(): string {
     return 'myTest';
   }
+
+  @Get('/myTest2')
+  myTest2(): string {
+    return 'myTest2';
+  }
 }

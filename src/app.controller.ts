@@ -16,7 +16,7 @@ export class AppController {
     return 'test2';
   }
 
-  @Get('/whip')
+  @Get('/as')
   mine(): string {
     return 'whip';
   }
